@@ -1,0 +1,10 @@
+# Added 260629: never commit secrets or build artifacts (FAQ warns about exposed keys).
+.env*
+.build/
+*.xcodeproj
+.swiftpm/
+xcuserdata/
+*.xcuserstate
+__pycache__/
+*.pyc
+.DS_Store
