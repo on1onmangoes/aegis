@@ -43,6 +43,17 @@ pipeline feels instant.
 - **3-state trust verdict** with a score — beyond yes/no — and real fraud detection (a
   mismatched badge is flagged, not waved through).
 
+## Where it earns its keep (enterprise continuity)
+
+Verification is easy when there's time. Aegis is built for when there isn't:
+
+- **Disaster privileging** — after an earthquake or hurricane, displaced clinicians must be cleared
+  to practice at surge facilities in *minutes*. Aegis verifies each badge against federal sources instantly.
+- **Provider relocation & record migration** — re-verify and re-link credentials from one photo when
+  clinicians move or EHRs migrate across systems/states.
+- **Mergers & acquisitions** — re-credential and de-duplicate *thousands* of providers across a merged
+  network; batch-verify against NPI/CMS and flag every discrepancy with a trust score.
+
 ## Run it
 
 ```bash

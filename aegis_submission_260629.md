@@ -18,7 +18,7 @@ and **Track 3 (Enterprise Impact)**; post the X version for **Track 2 (People's 
 ## Track 1 — Multiverse Agents (Discord: #g4hackathon-multiverse-agents)
 
 **Project Name:** Aegis
-**Team Members:** @on1onmangoes_63221 (Amit · mangoes.ai), @kushagrayadv15 (Kushagra Yadav), Nalin Prabhat (Discord @ pending)
+**Team Members:** @on1onmangoes_63221 (Amit · mangoes.ai), @kushagrayadv15 (Kushagra Yadav), @nalin_41670 (Nalin Prabhat)
 **Project Description:**
 > Aegis turns a photo of a healthcare provider's ID badge into a live, verified credential
 > graph in seconds. Four coordinated **Gemma 4 31B** agents on **Cerebras** — Extractor
@@ -28,7 +28,7 @@ and **Track 3 (Enterprise Impact)**; post the X version for **Track 2 (People's 
 > runs on Cerebras, the whole multi-agent fan-out finishes in ~4 seconds at **1,600+ tokens/sec**,
 > turning credential verification from a 20-minute manual chore into an instant, explainable graph.
 
-**GitHub Repository:** https://github.com/____/aegis
+**GitHub Repository:** https://github.com/on1onmangoes/aegis
 **Demo Video:** (attached)
 
 ---
@@ -36,18 +36,21 @@ and **Track 3 (Enterprise Impact)**; post the X version for **Track 2 (People's 
 ## Track 3 — Enterprise Impact (Discord: #g4hackathon-enterprise-impact)
 
 **Project Name:** Aegis
-**Team Members:** @on1onmangoes_63221 (Amit · mangoes.ai), @kushagrayadv15 (Kushagra Yadav), Nalin Prabhat (Discord @ pending)
+**Team Members:** @on1onmangoes_63221 (Amit · mangoes.ai), @kushagrayadv15 (Kushagra Yadav), @nalin_41670 (Nalin Prabhat)
 **Project Description:**
 > Aegis is an enterprise credential-verification and referral tool for healthcare intake and
 > compliance teams. From a single badge photo, multimodal **Gemma 4 31B on Cerebras** extracts
 > the claimed credentials, an Analyst agent cross-checks them against the authoritative NPI
 > Registry and CMS records to flag fraud as **VERIFIED / NEEDS ATTENTION / NOT VERIFIED** with a
 > trust score, and a Matcher agent ranks nearby in-network providers against intake criteria.
-> Every check is grounded in real public data (no hallucinated results) and the full pipeline
-> returns in seconds thanks to Cerebras — making it deployable for real-time patient intake,
-> provider onboarding, and anti-fraud screening.
+> It is built for the high-stakes continuity moments where speed and authoritative grounding
+> matter most — **emergency disaster privileging** after earthquakes or hurricanes,
+> **re-credentialing providers who relocate or whose health records migrate** across systems,
+> and **re-verifying thousands of clinicians during hospital M&A**. Every check is grounded in
+> real public data (no hallucinated results) and the full pipeline returns in seconds on
+> Cerebras — deployable for real-time intake, provider onboarding, and anti-fraud screening.
 
-**GitHub Repository:** https://github.com/____/aegis
+**GitHub Repository:** https://github.com/on1onmangoes/aegis
 **Demo Video:** (attached)
 
 ---
@@ -86,6 +89,19 @@ and **Track 3 (Enterprise Impact)**; post the X version for **Track 2 (People's 
 - Keep it ≤60s.
 
 ---
+
+## Enterprise continuity scenarios (Track 3 impact)
+The expensive, slow problem Aegis attacks is **credentialing under pressure**:
+- **Disaster response / earthquakes & hurricanes** — emergency *disaster privileging*: displaced
+  clinicians must be verified and cleared to practice at new or surge facilities in minutes, not
+  weeks. Aegis verifies a badge against authoritative federal sources instantly.
+- **Provider relocation & health-record migration** — when a provider moves or records move across
+  systems/states, credentials must be re-verified and re-linked. Aegis re-verifies from one photo.
+- **Mergers & acquisitions** — merging health systems must re-credential and de-duplicate
+  **thousands** of providers; Aegis batch-verifies the combined roster against NPI/CMS and flags
+  every discrepancy with a trust score.
+- **Business continuity / DR drills** — a fast, source-grounded verification layer that keeps
+  working when the rest of the back office is degraded.
 
 ## What to highlight to judges (talking points)
 - **Multimodal Gemma 4 31B**: reads the badge image directly (base64), text-only out.

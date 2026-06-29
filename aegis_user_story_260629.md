@@ -71,6 +71,16 @@ MATCHER AGENT (gemma-4-31b, strict JSON, reasoning_effort: medium)
 
 ---
 
+## High-stakes continuity scenarios (where Aegis earns its keep)
+Verification is cheap when there's time. Aegis is built for when there isn't:
+- **Disaster privileging** — after an earthquake or hurricane, volunteer and displaced clinicians
+  must be cleared to practice at surge facilities in minutes. Aegis verifies each badge against
+  federal sources instantly, so credentialing isn't the bottleneck in a crisis.
+- **Provider relocation & record migration** — when clinicians move or health records migrate
+  across systems/states, Aegis re-verifies and re-links credentials from a single photo.
+- **Mergers & acquisitions** — merging systems must re-credential and de-duplicate thousands of
+  providers; Aegis batch-verifies the combined roster against NPI/CMS and flags every discrepancy.
+
 ## Tracks this serves
 - **Track 1 (Multiverse Agents):** 5 coordinated agents, multimodal input, visible Cerebras speed.
 - **Track 3 (Enterprise):** credential verification + referral matching — a real
